@@ -1,1 +1,1 @@
-# coursera_1
+# coursera's exercises
