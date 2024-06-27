@@ -1,0 +1,110 @@
+body {
+    background-color: #edefee;
+    font-family: 'Markazi Text', 'serif';
+    margin-top: 3rem;
+    margin-bottom: 3rem;
+    margin-left: 5%;
+    margin-right: 5%;
+}
+
+.logo {
+    width: 600px;
+
+}
+
+h1 {
+    font-size: 3rem;
+    margin-left: 20px;
+}
+
+h2 {
+    font-size: 2rem;
+    margin-left: 20px;
+}
+
+p {
+    margin-left: 20px;
+    font-size: 20px;
+}
+
+.img-lorem {
+    margin-left: 20px;
+
+}
+
+header > img {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+nav ul {
+    list-style: none;
+    text-align: center;
+    background-color: rgba(0, 0, 0, 0.808);
+    padding: 20px;
+    border-radius: 25px;
+    margin: 10px;
+}
+
+nav li {
+    display: inline-block;
+}
+
+a {
+    text-decoration: none;
+    padding: 10px;
+    font-size: 40px;
+    color: rgba(255, 255, 255, 0.779);
+}
+section {
+    display: flex;
+}
+
+article {
+    flex: 1;
+}
+
+.article1 {
+    background-image: url("https://picsum.photos/400/204");
+    background-size: cover;
+    background-repeat: no-repeat;
+    color: white;
+    border-radius: 25px;
+    margin: 10px;
+}
+
+.article1 > p {
+    margin-right: 30%;
+}
+
+.article2 {
+    background: rgba(226, 175, 36, 0.326);
+    margin: 10px;
+    border-radius: 20px;
+    height: 550px;
+}
+footer{
+    display: flex;
+}
+
+footer div {
+    flex: 1;
+}
+
+.logo_2 {
+    width: 100px;
+}
+
+.footer-p {
+    flex: 1;
+    text-align: end;
+    margin-right: 20px;
+    margin-top: 30px;
+    border-top: 2px solid black;
+}
+
+.div-img {
+    margin-left: 30px;
+    margin-top: 30px;
+}
