@@ -23,7 +23,7 @@ function App() {
         </p>
         <Heading/>
         <Intro1 name ="My name is Antonio"/>
-        <Intro1 name ="My name is Antonio"/>
+        <Intro1 name ="My name is Luca"/>
         <Nav/>
         <Promo/>
 
