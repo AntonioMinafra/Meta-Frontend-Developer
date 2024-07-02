@@ -22,6 +22,8 @@ function App() {
           Edit <code>src/App.js</code> and save to reload.
         </p>
         <Heading/>
+        <Intro1 name ="My name is Antonio"/>
+        <Intro1 name ="My name is Antonio"/>
         <Nav/>
         <Promo/>
 
