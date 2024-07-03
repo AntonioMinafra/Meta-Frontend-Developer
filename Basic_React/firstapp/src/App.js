@@ -6,6 +6,7 @@ import Intro1 from './components/Intro1.js';
 import Intro2 from './components/Intro2.js';
 import Intro3 from './components/Intro3.js';
 import Footer from './components/Footer.js';
+import Card from "./components/card.js";
 
 function Heading() {
   return (
@@ -18,9 +19,7 @@ function App() {
     <div className="App">
       <header className="App-header">
         <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
+        <Card h2="First card's h2" h3="First card's h3"/>
         <Heading/>
         <Intro1 name ="My name is Antonio"/>
         <Intro1 name ="My name is Luca"/>
