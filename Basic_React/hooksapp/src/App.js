@@ -1,5 +1,7 @@
 import logo from './logo.svg';
 import InputComponent from './input';
+import RegisterForm from './form';
+import TextInputWithFocusButton from './focusButton';
 import './App.css';
 
 function App() {
@@ -7,7 +9,9 @@ function App() {
     <div className="App">
       <header className="App-header">
         <img src={logo} className="App-logo" alt="logo" />
-        <InputComponent/>
+        <InputComponent />
+        <RegisterForm />
+        <TextInputWithFocusButton />
       </header>
     </div>
   );
