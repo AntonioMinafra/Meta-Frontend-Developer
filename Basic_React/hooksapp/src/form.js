@@ -2,9 +2,9 @@ import { useState } from 'react';
 
 function RegisterForm() {
     const [form, setForm] = useState({
-        firstName: 'Luke',
-        lastName: 'Jones',
-        email: 'lukeJones@sculpture.com',
+        firstName: 'Antonio',
+        lastName: 'Minafra',
+        email: 'antonio@gmail.com',
     });
 
     return (
