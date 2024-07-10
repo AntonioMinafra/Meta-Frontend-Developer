@@ -2,6 +2,7 @@ import logo from './logo.svg';
 import InputComponent from './input';
 import RegisterForm from './form';
 import TextInputWithFocusButton from './focusButton';
+import Test from './test';
 import './App.css';
 
 function App() {
@@ -12,6 +13,7 @@ function App() {
         <InputComponent />
         <RegisterForm />
         <TextInputWithFocusButton />
+        <Test />
       </header>
     </div>
   );
