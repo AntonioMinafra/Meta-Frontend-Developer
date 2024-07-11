@@ -14,6 +14,8 @@ function App() {
         <RegisterForm />
         <TextInputWithFocusButton />
         <Test />
+        <Test />
+        <Test />
       </header>
     </div>
   );
