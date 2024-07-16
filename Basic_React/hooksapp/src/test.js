@@ -1,8 +1,8 @@
 
-function Test(){
+function Test(props){
 
     return(
-        <p>I'm test</p>
+        <h1>{props.message}</h1>
     )
 }
 
